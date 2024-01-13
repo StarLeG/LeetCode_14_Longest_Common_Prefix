@@ -5,7 +5,8 @@ project(14_Longest_Common_Prefix LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(14_Longest_Common_Prefix main.cpp)
+add_executable(14_Longest_Common_Prefix main.cpp
+    ReadMe.md)
 
 include(GNUInstallDirs)
 install(TARGETS 14_Longest_Common_Prefix
